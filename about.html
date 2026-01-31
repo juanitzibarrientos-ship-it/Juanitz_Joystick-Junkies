@@ -5,6 +5,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Joystick Junkies - About</title>
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Extra styling for About page */
+    main section {
+      background-color: #f7f9fc;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    main section h2 {
+      font-size: 2em;
+      color: #1f4068;
+      margin-bottom: 20px;
+    }
+
+    main section p {
+      color: #444;
+      font-size: 1.1em;
+      line-height: 1.5;
+    }
+
+    .about-img {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      border-radius: 15px;
+      margin: 20px auto;
+      display: block;
+      object-fit: cover;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .about-img:hover {
+      transform: scale(1.02);
+    }
+
+    @media (max-width: 600px) {
+      main section {
+        padding: 25px;
+        margin: 20px;
+      }
+    }
+  </style>
 </head>
 <body>
 
@@ -25,14 +72,14 @@
   <section>
     <h2>About Us</h2>
     <a href="https://www.epicgames.com/" target="_blank">
-      <img src="image/teamgaming.jpg" alt="Gaming Team">
+      <img src="image/teamgaming.jpg" alt="Gaming Team" class="about-img">
     </a>
-    <p>Joystick Junkies started as a small group of friends passionate about video games. Over time, we’ve grown into a platform for gamers of all ages and skill levels to share their love for gaming. Our goal is to connect players, provide resources, and celebrate gaming culture.</p>
-  </section>
-
-  <section>
-    <h2>Our Mission</h2>
-    <p>We aim to be the go-to hub for gaming enthusiasts. Whether it’s through guides, news, or community forums, we strive to create a safe, fun, and informative space where gamers can thrive, learn, and enjoy their favorite hobby.</p>
+    <p>
+      Joystick Junkies started as a small group of friends passionate about video games. Over time, we’ve grown into a platform for gamers of all ages and skill levels to share their love for gaming. Our goal is to connect players, provide resources, and celebrate gaming culture.
+    </p>
+    <p>
+      We aim to be the go-to hub for gaming enthusiasts. Whether it’s through guides, news, or community forums, we strive to create a safe, fun, and informative space where gamers can thrive, learn, and enjoy their favorite hobby.
+    </p>
   </section>
 </main>
 
